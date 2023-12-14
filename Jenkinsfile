@@ -10,6 +10,7 @@ pipeline {
                 }
             }
             steps {
+                //stashing helps in saving files or dir generated during a stage of pipeline and retrieve them later in subsequent stages or even in other jenkins jobs. 
                 sh 'python -m py_compile add2vals.py calc.py'
                 stash(name: 'compiled-results', includes: '*.py*')
                 sh 'ls -l *'
