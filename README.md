@@ -54,3 +54,5 @@ This project aimed to establish a continuous integration pipeline using Jenkins 
 ### Project Outcomes
 - Successfully compiled results stashed for further use.
 - Test reports generated in XML format and displayed within the Jenkins interface.
+![image1](./Screenshot-2023-12-14-at-18.59.27.png)
+![image1](./Screenshot-2023-12-14-at-18.59.40.png)
