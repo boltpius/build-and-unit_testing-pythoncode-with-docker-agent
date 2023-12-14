@@ -11,6 +11,7 @@ pipeline {
             }
             steps {
                 //stashing helps in saving files or dir generated during a stage of pipeline and retrieve them later in subsequent stages or even in other jenkins jobs. 
+                // In this context, it is used to save 'compiled results and '*.py*' and can be used by unstashing unstash('compiled-results') in anotehr stage.
                 sh 'python -m py_compile add2vals.py calc.py'
                 stash(name: 'compiled-results', includes: '*.py*')
                 sh 'ls -l *'
