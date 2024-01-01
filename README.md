@@ -49,7 +49,7 @@ This project aimed to establish a continuous integration pipeline using Jenkins 
 
 3. **Execution and Outputs**:
    - Triggered Jenkins job execution to run the pipeline fetched from SCM.
-   - Monitored job output for successful retrieval and execution.
+   - Monitored job output for successful retrieval and execution
 
 ### Project Outcomes
 - Successfully compiled results stashed for further use.
